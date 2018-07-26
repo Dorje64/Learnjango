@@ -1,6 +1,9 @@
 <html>
   <body>
       <p>Hi there!</p>
+          {% for post in posts %}
+           <div> {{ post.title }} </div>
+         {% endfor %}
       <p>It works!</p>
   </body>
 </html>
